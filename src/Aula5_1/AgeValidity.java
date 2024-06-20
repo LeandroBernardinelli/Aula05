@@ -8,12 +8,15 @@ public class AgeValidity {
 Scanner scanner = new Scanner(System.in);        
 
 System.out.println("informe sua idade:");
-String idade = scanner.nextLine();
+int idade = scanner.nextInt();
 boolean drivingUnderAge; 
 drivingUnderAge = false;
-        
-
-
-       System.out.println(drivingUnderAge);
-    }
+if (idade <18) {
+    System.out.println("motorista menor de idade");
 }
+if (idade >=18) {
+
+    System.out.println(drivingUnderAge);}
+       
+    }
+    }
