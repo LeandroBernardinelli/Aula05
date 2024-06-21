@@ -1,3 +1,5 @@
+package Aula5_1;
+
 public class AgeCheck {
    
     public static void main(String[] args) {
@@ -6,7 +8,7 @@ public class AgeCheck {
         if (myAge >= 16) {
             System.out.println("Tenho idade suficiente para ter carteira de motorista!");
         }
-        if (myAge <= 16) {
+        else  {
             System.out.println("Ainda não tenho idade suficiente... :*(");
         }
     }
